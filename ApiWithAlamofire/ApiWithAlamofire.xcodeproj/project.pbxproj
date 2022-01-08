@@ -14,6 +14,7 @@
 		2D4038DA2789E4EE00E54222 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D4038D92789E4EE00E54222 /* Assets.xcassets */; };
 		2D4038DD2789E4EE00E54222 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D4038DB2789E4EE00E54222 /* LaunchScreen.storyboard */; };
 		2D4038EA2789F90300E54222 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4038E92789F90200E54222 /* User.swift */; };
+		2D4038EE278A14F600E54222 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4038ED278A14F600E54222 /* Post.swift */; };
 		CCB036A07E4C7A8039E4EE8B /* Pods_ApiWithAlamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C63F12A6E434A4EA0D69CEE /* Pods_ApiWithAlamofire.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +29,7 @@
 		2D4038DC2789E4EE00E54222 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D4038DE2789E4EE00E54222 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D4038E92789F90200E54222 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		2D4038ED278A14F600E54222 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		57E39E9EC51444549D1B8A15 /* Pods-ApiWithAlamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApiWithAlamofire.debug.xcconfig"; path = "Target Support Files/Pods-ApiWithAlamofire/Pods-ApiWithAlamofire.debug.xcconfig"; sourceTree = "<group>"; };
 		9C63F12A6E434A4EA0D69CEE /* Pods_ApiWithAlamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ApiWithAlamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -74,6 +76,7 @@
 		2D4038CF2789E4E500E54222 /* ApiWithAlamofire */ = {
 			isa = PBXGroup;
 			children = (
+				2D4038EC278A14E100E54222 /* Models */,
 				2D4038D02789E4E500E54222 /* AppDelegate.swift */,
 				2D4038D22789E4E500E54222 /* SceneDelegate.swift */,
 				2D4038D42789E4E500E54222 /* ViewController.swift */,
@@ -81,9 +84,17 @@
 				2D4038D92789E4EE00E54222 /* Assets.xcassets */,
 				2D4038DB2789E4EE00E54222 /* LaunchScreen.storyboard */,
 				2D4038DE2789E4EE00E54222 /* Info.plist */,
-				2D4038E92789F90200E54222 /* User.swift */,
 			);
 			path = ApiWithAlamofire;
+			sourceTree = "<group>";
+		};
+		2D4038EC278A14E100E54222 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2D4038E92789F90200E54222 /* User.swift */,
+				2D4038ED278A14F600E54222 /* Post.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		3BB58E2E083925F8582007F9 /* Frameworks */ = {
@@ -212,6 +223,7 @@
 				2D4038D52789E4E500E54222 /* ViewController.swift in Sources */,
 				2D4038D12789E4E500E54222 /* AppDelegate.swift in Sources */,
 				2D4038D32789E4E500E54222 /* SceneDelegate.swift in Sources */,
+				2D4038EE278A14F600E54222 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
